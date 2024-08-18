@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E1E8E1; /* Soft Sage background color */
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    background: #4b594b;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #555;
+    border-bottom: 2px solid #D0F0C0;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.intro-img, .physical-img, .diet-img, .behavior-img, .use-img {
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    position:sticky;
+    margin: 10px 0;
+}
+
+.intro-img {
+    width: 30%;
+    float: left;
+    margin-right: 15px;
+}
+
+.physical-img {
+    width: 30%;
+    float: right;
+    margin-left: 15px;
+}
+
+.diet-img {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.behavior-img, .use-img {
+    width: 100%;
+    margin: 20px 0;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+section {
+    clear: both;
+    padding: 10px;
+    background-color: #E1E8E1;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}

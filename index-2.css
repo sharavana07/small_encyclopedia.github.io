@@ -1,0 +1,117 @@
+/* Global Styles */
+* {
+    box-sizing: border-box; /* Ensure padding and borders are included in element's width and height */margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif; /* Set a default font family */
+    align-items: center;
+}
+
+/* Header Styles */h1 {
+    font-size: 2.5rem; /* Slightly larger font for more prominence */
+    font-style: italic;
+    text-align: center;
+    background-color: rgba(36, 226, 36, 0.7); /* Updated color with better readability */
+    width: 100%;
+    height: 50px; /* Increased height for better visibility */
+    line-height: 50px; /* Vertical alignment of text */
+    margin-bottom: 1rem; /* Add space below the header */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
+}
+
+/* Content Area Styles */.content {
+    text-align: center;
+    color: white;
+    background-color: #000;
+    margin: 10px;
+    padding: 2rem;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for better depth */
+    max-width: 1200px; /* Set a max-width for better readability on large screens */
+    margin: 20px auto; /* Center align the content */
+}
+
+/* Subheading Styles */h2 {
+    font-size: 1.8rem; /* Slightly larger font for subheadings */
+    text-align: center;
+    background-color: #74a5d5;
+    color: #c27e3b;
+    width: 100%;
+    padding: 0.5rem0; /* Add padding for spacing */
+    margin-bottom: 1rem;
+    border-radius: 5px; /* Slightly rounded corners */
+}
+
+/* Custom Content Area Styles */.C_A-contents {
+    text-align: center;
+    background-color: #1E201E;
+    color: #ECDFCC;
+    margin: 10px;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(118, 20, 20, 0.82);
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+/* Image Styles */img {
+    height: auto;
+    max-width: 100%; /* Make images responsive */
+    border-radius: 10px; /* Rounded corners for images */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow to images */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Horizontal Scrolling Container Styles */.qt {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    overflow-x: auto; /* Horizontal scroll */overflow-y: hidden; /* Hide vertical overflow */text-align: center;
+    padding: 10px0;
+}
+
+/* Content Block Styles */.k-content, .r-content, .pup-content, .pan-content {
+    text-align: center;
+    background-color: #aae3e3;
+    color: #ff0000;
+    padding: 1rem;
+    border-radius: 50%; /* Circular content blocks */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effect */
+    width: 150px;
+    height: 150px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.k-content:hover, .r-content:hover, .pup-content:hover, .pan-content:hover {
+    background-color: #82c8c8; /* Darken the background color on hover */
+    transform: scale(1.8); /* Slight zoom effect on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+        height: 45px;
+        line-height: 45px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .content, .C_A-contents {
+        padding: 1rem;
+        margin: 10px;
+    }
+
+    .k-content, .r-content, .pup-content, .pan-content {
+        width: 100px;
+        height: 100px;
+    }
+}

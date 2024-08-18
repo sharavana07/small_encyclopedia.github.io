@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #627472;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    background: #E0F7F4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #555;
+    border-bottom: 2px solid #da7171;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.intro-img {
+    float: left;
+    margin-right: 15px;
+    width: 30%;
+    border-radius: 8px;
+}
+
+.physical-img {
+    float: right;
+    margin-left: 15px;
+    width: 30%;
+    border-radius: 8px;
+}
+
+.diet-img {
+    display: block;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 8px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.intro, .physical-characteristics, .diet, .behavior, .importance, .use, .advantages, .fun-facts, .statistics {
+    clear: both;
+    padding: 10px;
+    background-color: #aef1ae;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.intro-img, .physical-img, .diet-img {
+    border: 2px solid #ddd;
+}
