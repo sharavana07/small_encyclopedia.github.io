@@ -5,6 +5,9 @@ body {
     background-color: #E1E8E1; /* Soft Sage background color */
 }
 
+.intro{
+    width:10rem;
+}
 .container {
     max-width: 900px;
     margin: 20px auto;
